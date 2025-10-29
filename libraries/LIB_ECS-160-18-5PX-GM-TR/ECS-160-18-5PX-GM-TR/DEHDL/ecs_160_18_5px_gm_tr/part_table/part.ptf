@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'ECS_160_18_5PX_GM_TR'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "ECS", "ECS-160-18-5PX-GM-TR" (!) = "", "ECS160185PXGMTR", "Other", "520-160-18-5PX-GM-TR", "https://www.mouser.co.uk/ProductDetail/ECS/ECS-160-18-5PX-GM-TR?qs=amGC7iS6iy9jy4CztfLIlw%3D%3D", "Crystals 16.000 MHz 18 pF CSM-7X +/-30/30 ppm -20 - +70C RoHS", "", "4.3 mm"
+END_PART
+
+END.

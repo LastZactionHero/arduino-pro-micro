@@ -1,0 +1,128 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "ECS-160-18-5PX-GM-TR"
+   (description "Crystals 16.000 MHz 18 pF CSM-7X +/-30/30 ppm -20 - +70C RoHS")
+   (family "OSC")
+   (package "ECS160185PXGMTR")
+   (attribute "Datasheet Link" "")
+   (attribute "Geometry.Height" "4.3mm")
+   (attribute "Mouser Part Number" "520-160-18-5PX-GM-TR")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/ECS/ECS-160-18-5PX-GM-TR?qs=amGC7iS6iy9jy4CztfLIlw%3D%3D")
+   (attribute "Manufacturer_Name" "ECS")
+   (attribute "Manufacturer_Part_Number" "ECS-160-18-5PX-GM-TR")
+   (gate
+    (symbol "ECS-160-18-5PX-GM-TR")
+    (pin "1" 1 PS)
+    (pin "2" 2 PS)
+   )
+  )
+  (symbol "ECS-160-18-5PX-GM-TR"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 120 100) (pt 120 -100))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 280 100) (pt 280 -100))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 160 140) (pt 160 -140) (pt 240 -140) (pt 240 140) (pt 160 140) (closed))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 280 0) (pt 300 0))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 120 0) (pt 100 0))
+   )
+   (terminal
+    (body (symbol "PINSHORT") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 140 10) (rot 0) (just MIDDLE LEFT) (visible false))
+    (number (pt 60 10) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PINSHORT") (pt 400 0) (rot 0) (mir X) (visible true))
+    (name (pt 140 10) (rot 0) (just MIDDLE LEFT) (visible false))
+    (number (pt 60 10) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "ECS160185PXGMTR"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -5.675 -2.4)
+      (pt 5.675 -2.4)
+      (pt 5.675 2.4)
+      (pt -5.675 2.4)
+      (pt -5.675 -2.4))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -8.5 3.4)
+      (pt 8.5 3.4)
+      (pt 8.5 -3.4)
+      (pt -8.5 -3.4)
+      (pt -8.5 3.4))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -5.675 1.2)
+      (pt -5.675 2.4)
+      (pt 5.675 2.4)
+      (pt 5.675 1.2))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt 5.675 -1.2)
+      (pt 5.675 -2.4)
+      (pt -5.675 -2.4)
+      (pt -5.675 -1.2))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -8.1 0)
+      (arc (pt -8.100 0.000) (pt -8.100 -0.050) (pt -8.000 0.050) (start 180.0) (sweep 180.0))
+      (pt -8 0)
+      (arc (pt -8.000 0.000) (pt -8.100 -0.050) (pt -8.000 0.050) (start 180.0) (sweep .0))
+      (pt -8.1 0))))
+   (leg 1 (pt -4.750 0.000) (padstack 0))
+   (leg 2 (pt 4.750 0.000) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 2.000 5.500 0 0 0.000))
+   )
+   (model "ECS-160-18-5PX-GM-TR.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

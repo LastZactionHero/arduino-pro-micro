@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "ECS-160-18-5PX-GM-TR"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2023-04-21-10:18:48)
+    (mountForm default
+        (footprintRef "ECS160185PXGMTR")
+        (spec "System")
+    )
+)

@@ -1,0 +1,66 @@
+(Japanese_coding: sjis)
+(function "ECS_17854143"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2023-04-21-10:18:48)
+    (utime 2023-04-21-10:18:48)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "ECS-160-18-5PX-GM-TR")
+)
+
+
+(pinAssign "ECS_17854143"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2023-04-21-10:18:48)
+    (utime 2023-04-21-10:18:48)
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_17854143")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "ECS-160-18-5PX-GM-TR")
+)
+
+
+(part "ECS-160-18-5PX-GM-TR"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2023-04-21-10:18:48)
+    (utime 2023-04-21-10:18:48)
+    (packageRef "ECS-160-18-5PX-GM-TR")
+    (pinAssignRef "ECS_17854143")
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "YES")
+    (property "refDesPrefix" "Y")
+    (property "description" "Crystals 16.000 MHz 18 pF CSM-7X +/-30/30 ppm -20 - +70C RoHS")
+    (property "Mouser_Part_Number" "520-160-18-5PX-GM-TR")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/ECS/ECS-160-18-5PX-GM-TR?qs=amGC7iS6iy9jy4CztfLIlw%3D%3D")
+    (property "Manufacturer_Name" "ECS")
+    (property "Manufacturer_Part_Number" "ECS-160-18-5PX-GM-TR")
+    (property "Datasheet_Link" "")
+    (property "compAreaTopHeight" 4.3)
+)
+
+

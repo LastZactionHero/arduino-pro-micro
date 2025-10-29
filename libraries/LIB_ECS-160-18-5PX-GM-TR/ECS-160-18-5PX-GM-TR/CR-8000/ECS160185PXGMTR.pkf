@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "ECS160185PXGMTR"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "ECS160185PXGMTR")
+        (spec "default")
+    )
+)
